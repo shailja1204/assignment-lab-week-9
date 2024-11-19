@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int i = 1; // Initialize the variable i
+    while (i <= 5) { // Condition for the loop to run
+        printf("%d\n", i); // Print the current value of i
+        ++i; // Increment i by 1
+    }
+    return 0; // End of the program
+}
